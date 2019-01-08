@@ -1,0 +1,55 @@
+<head>
+  <meta charset="utf-8">
+  <title>Kotono's Kitchen</title>
+  <link rel="stylesheet" href="therecipe.css">
+  <script src="therecipe.js"></script>
+</head>
+<body>
+<div>
+  <h1>Kotono's Kitchen</h1>
+</div>
+
+<figure>
+<div id="default1">
+<a href="shirasu.html">
+
+  <img src="shirasu.jpg" alt="default1" width="400px" height="400px" allign="left"></a>
+</div>
+<div style="position:absolute; top:150px; left:850px;">
+<h2> しらす丼 </h2>
+ <h3>材料</h3>
+<dl>
+  <dt>ご飯...一人分</dt>
+  <dt>あげしらす...１パック</dt>
+  <dt>万能ネギ...1/4本</dt>
+  <dt>ごま油...大さじ２</dt>
+  <dt>ごま...適量</dt>
+  <dt>卵黄...1個分</dt>
+  <dt>醤油...大さじ１</dt>
+
+</dl>
+ <h3>作り方</h3>
+<dl>
+  <dt>1.ご飯を丼によそる</dt>
+  <dt>2.揚げしらすを乗せる</dt>
+  <dt>3.万能ネギを切ってたっぷり乗せる</dt>
+  <dt>4.卵黄を真ん中に来るように上に盛る</dt>
+  <dt>5.醤油とごま油をかける</dt>
+  <dt>6.上からごまをかける</dt>
+</dl>
+
+<h3>Kitchen Timer</h3>
+  <form name="ktimer" onSubmit="return false;">
+  <dt><input type="button" size="10" value="1分" onClick="set_timer(60)">
+       <input type="button" size="10" value="2分" onClick="set_timer(120)">
+       <input type="button" size="10" value="3分" onClick="set_timer(180)">
+       <input type="button" size="10" value="5分" onClick="set_timer(300)">
+  </dt>
+  <dt><input type="text" name="counter" size="10"></dt>
+  <dt><input type="button" name="b_start" size="10" value="START" onClick="count_start()">
+      <input type="button" name="b_reset" size="10" value="RESET" onClick="count_stop()">
+  </dt>
+</div>
+
+</figure>
+</body>

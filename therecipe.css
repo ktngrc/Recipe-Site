@@ -1,0 +1,15 @@
+h1 {font-size:50px;
+  color:#000044;
+  font-family:"Gill Sans",sans-serif;
+  font-weight:lighter;
+  background-color:#DDFFFF;
+  text-align: center;}
+div {position: absolute ;
+  width:400px;
+  height:300px;
+  margin-left: -200px ;
+  left:50%}
+#default1 {
+  margin-left:  -450px;
+  margin-top: 150px
+}
