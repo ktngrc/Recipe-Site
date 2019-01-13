@@ -1,0 +1,49 @@
+<head>
+  <meta charset="utf-8">
+  <title>Kotono's Kitchen</title>
+  <link rel="stylesheet" href="therecipe.css">
+  <script src="therecipe.js"></script>
+</head>
+
+<body>
+<div>
+  <h1>Kotono's Kitchen</h1>
+</div>
+
+<figure>
+<div id="default1">
+<a href="banana.html">
+
+  <img src="banana.jpg" alt="banana" width="400px" height="400px" allign="left"></a>
+</div>
+<div style="position:absolute; top:150px; left:850px;">
+<h2> オートミールバナナクッキー </h2>
+ <h3>材料</h3>
+<dl>
+  <dt>バナナ...1本</dt>
+  <dt>オートミール...１カップ</dt>
+  <dt>シナモン...適量</dt>
+
+</dl>
+ <h3>作り方</h3>
+<dl>
+  <dt>1.バナナをスプーンなどで潰す</dt>
+  <dt>2.オートミールと潰したバナナを混ぜる</dt>
+  <dt>3.オーブンを２５０℃に設定する</dt>
+  <dt>4.平らで丸い形をクッキングシートで作る</dt>
+  <dt>5.２０分焼く</dt>
+  <dt>6.シナモンをかける</dt>
+</dl>
+
+<h3>Kitchen Timer</h3>
+  <form name="ktimer" onSubmit="return false;">
+  <dt><input type="button" size="10" value="20分" onClick="set_timer(1200)">
+
+  </dt>
+  <dt><input type="text" name="counter" size="10"></dt>
+  <dt><input type="button" name="b_start" size="10" value="START" onClick="count_start()">
+      <input type="button" name="b_reset" size="10" value="RESET" onClick="count_stop()">
+  </dt>
+</div>
+</figure>
+</body>
