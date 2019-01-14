@@ -13,7 +13,8 @@ function OnButtonClick() {
 
     case "３":
     case "3":
-      alert("しらす丼がおすすめ！")
+      alert("しらす丼がおすすめ！");
+      break;
 
     case "４":
     case "4":
